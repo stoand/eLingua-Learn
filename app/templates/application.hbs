@@ -1,0 +1,17 @@
+<div class="upper-bar">
+  <img class="logo" src="" alt=""/>
+    {{#link-to 'index' class="website-name"}}eLingua{{/link-to}}
+
+  <span class="right-area">
+    {{#link-to 'languages'}}Languages{{/link-to}}|
+      {{#link-to 'login'}}Login{{/link-to}}
+      {{#link-to 'sign-up' class="button"}}Sign Up{{/link-to}}
+  </span>
+</div>
+<div class="main-content">{{outlet}}</div>
+<div class="lower-bar">
+  <div class="small-text">
+    <i>Comments, compliments, complaints</i><br>
+    Send me an email: <b>andreas@stockers.org</b>
+  </div>
+</div>
