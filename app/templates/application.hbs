@@ -2,10 +2,13 @@
   <img class="logo" src="" alt=""/>
     {{#link-to 'index' class="website-name"}}eLingua{{/link-to}}
 
-  <span class="right-area">
+  <span class="right-area desktop">
     {{#link-to 'languages'}}Languages{{/link-to}}|
       {{#link-to 'login'}}Login{{/link-to}}
       {{#link-to 'sign-up' class="button"}}Sign Up{{/link-to}}
+  </span>
+  <span class="right-area mobile">
+    <button>Menu ⇲</button>
   </span>
 </div>
 <div class="main-content">{{outlet}}</div>

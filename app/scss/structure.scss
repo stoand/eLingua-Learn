@@ -22,11 +22,12 @@ body {
   }
 
   .right-area {
+    color: lighten($cs-2, 50%);
     float: right;
     line-height: 25px;
 
     a {
-      color: lighten($cs-2, 50%);
+      color: inherit;
       margin: 0 10px;
       text-decoration: none;
 

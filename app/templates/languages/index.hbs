@@ -1,0 +1,11 @@
+<div class="page-languages">
+  <div class="title">Languages</div>
+    <div class="language">
+    {{#each}}
+      <div class="name">{{name}} <span class="available-texts">{{texts.length}}</span></div>
+        {{#each texts}}
+          <div class="text">{{this}}</div>
+        {{/each}}
+    {{/each}}
+    </div>
+</div>
